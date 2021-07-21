@@ -33,7 +33,7 @@ windows terminal을 **관리자 권한**으로 실행하고 다음 두 명령어
 Windows Terminal에서 새 탭(`+`) 우측 버튼을 클릭하여 Ubuntu를 선택하면 WSL 우분투 배포판 셀이 실행된다.
 
 ### TroubleShooting
-3번 과정에서 우분투를 설치할 때, 처음에는 20.04버전을 설치했다. 그런데 우분투를 실행했을 때 자꾸 `he Windows Subsystem for Linux optional component is not enabled. Please enable it and try again.` 에러가 발생해서 사용할 수 없었다. 검색을 해보니 `제어판-프로그램 및 기능-Windows 기능 켜기/끄기-Linux용 Windows 하위 시스템`을 켜주면 해결된다고 했다. 그런데 난 이미 활성화된 상태여서 난감했다.. 그래서 20.04버전을 삭제하고 3번에 첨부한 이미지의 우분투를 설치해봤는데도 동일한 에러가 발생했다. 그래서 `Linux용 Windows 하위 시스템`을 끄고 재부팅하고 다시 켜고 재부팅해보니까 에러가 사라졌다!
+3번 과정에서 우분투를 설치할 때, 처음에는 20.04버전을 설치했다. 그런데 우분투를 실행했을 때 자꾸 `The Windows Subsystem for Linux optional component is not enabled. Please enable it and try again.` 에러가 발생해서 사용할 수 없었다. 검색을 해보니 `제어판-프로그램 및 기능-Windows 기능 켜기/끄기-Linux용 Windows 하위 시스템`을 켜주면 해결된다고 했다. 그런데 난 이미 활성화된 상태여서 난감했다.. 그래서 20.04버전을 삭제하고 3번에 첨부한 이미지의 우분투를 설치해봤는데도 동일한 에러가 발생했다. 그래서 `Linux용 Windows 하위 시스템`을 끄고 재부팅하고 다시 켜고 재부팅해보니까 에러가 사라졌다!
 
 ##### 출처
 [WSL2 설치 및 사용 방법](https://www.44bits.io/ko/post/wsl2-install-and-basic-usage)
